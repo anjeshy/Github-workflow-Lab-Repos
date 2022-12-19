@@ -6,9 +6,9 @@ on: [push]
 
 jobs:
   my-custom-jobs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     steps:
-      -name: echo message
+      -name: echo message step
        run: echo "Hello World"
       -name: display hostname
        run: hostname 
